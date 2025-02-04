@@ -1,0 +1,81 @@
+{
+	"info": {
+		"_postman_id": "4a235268-3e38-4814-a5d3-0a167a85522d",
+		"name": "learn-desgin-pattern",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "32799554"
+	},
+	"item": [
+		{
+			"name": "get-all-task",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:3000/tasks"
+			},
+			"response": []
+		},
+		{
+			"name": "get-all-task-by-id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:3000/tasks/5"
+			},
+			"response": []
+		},
+		{
+			"name": "create-task",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"some\":\"value\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/tasks",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"tasks"
+					],
+					"query": [
+						{
+							"key": "some",
+							"value": "value",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update-by-id",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": "http://localhost:3000/tasks/1"
+			},
+			"response": []
+		},
+		{
+			"name": "delete-by-id",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "http://localhost:3000/tasks/3"
+			},
+			"response": []
+		}
+	]
+}

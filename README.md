@@ -14,7 +14,7 @@ Design patterns are reusable solutions to common problems in software design. Th
 
 We'll create a simple Task Management App with the following functionality:
 
-[learn-desgin-pattern.postman_collection.json](:/d4f158d77a3942609f917d73ae0e3d13)
+[learn-desgin-pattern.postman_collection.json](./resources/learn-desgin-pattern.postman_collection.json)
 
 
 
