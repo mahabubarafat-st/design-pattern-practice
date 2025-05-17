@@ -1,0 +1,24 @@
+project-root/
+├── src/
+│   ├── domain/          # Business logic layer
+│   │   ├── entities/
+│   │   │   └── user.entity.js
+│   │   └── use-cases/
+│   │       └── user/
+│   │           ├── create-user.use-case.js
+│   │           └── ...other CRUD operations
+│   ├── infrastructure/  # Technical implementation
+│   │   ├── database/
+│   │   │   └── user.repository.js
+│   │   ├── web/
+│   │   │   └── express/
+│   │   │       ├── user.controller.js
+│   │   │       └── routes.js
+│   │   └── config/      # Environment configuration
+│   ├── application/     # Interface adapters
+│   │   └── middlewares/
+│   │       └── error-handler.js
+│   └── index.js         # Composition root
+├── tests/               # Test suite
+│   └── user.test.js
+└── package.json
